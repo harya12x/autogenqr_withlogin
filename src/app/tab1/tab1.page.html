@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+ <ion-card >
+  <ngx-qrcode [value]="npm"></ngx-qrcode>
+   <ion-card-content>
+      your qr code : {{npm}}
+    </ion-card-content>
+ </ion-card>
+
+</ion-content>

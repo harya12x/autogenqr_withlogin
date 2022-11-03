@@ -1,0 +1,7 @@
+{
+  "name": "appkelompok",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
